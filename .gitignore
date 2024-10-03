@@ -1,0 +1,8 @@
+simulator_env/
+__pycache__/
+*.pyc
+*.mat
+*.nii
+*.raw
+
+simulator/data
