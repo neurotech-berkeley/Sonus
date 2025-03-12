@@ -48,3 +48,17 @@ WORKER:0:1      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=24,nthreads=1> took
 WORKER:0:1      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=32,nthreads=1> took 44.896302 (s) in 5 timesteps
 WORKER:0:1      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=64,nthreads=1> took 45.014515 (s) in 5 timesteps
 WORKER:0:1      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=96,nthreads=1> took 45.361564 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=128,nthreads=1> took 45.493152 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=256,nthreads=1> took 45.633792 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=512,nthreads=1> took 47.094537 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=580,nthreads=1> took 48.181938 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=8,nthreads=1> took 40.387548 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=16,nthreads=1> took 40.746559 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=32,nthreads=1> took 44.386395 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=64,nthreads=1> took 44.732567 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=96,nthreads=1> took 44.571793 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=128,nthreads=1> took 45.024538 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=256,nthreads=1> took 45.824315 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=512,nthreads=1> took 47.573593 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=580,nthreads=1> took 48.457253 (s) in 5 timesteps
+WORKER:0:1      AutoTuner: run <x0_blk0_size=32,y0_blk0_size=8,nthreads=1> took 40.948920 (s) in 5 timesteps
