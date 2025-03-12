@@ -1,2 +1,84 @@
-HEAD            Listening at <CommsManager object at 140406160326160, uid=head, address=sonus-2.us-central1-f.c.project-sonus.internal, port=3016, state=connected>
-MONITOR         Listening at <NODE:0 | WORKER:0-4>
+HEAD            Listening at <CommsManager object at 139727944868304, uid=head, address=sonus-2.us-central1-f.c.project-sonus.internal, port=3000, state=connected>
+MONITOR         Listening at <NODE:0 | WORKER:0-8>
+WORKER:0:6      Solve 1
+WORKER:0:6      Done 1
+WORKER:0:3      Solve 2
+WORKER:0:3      Done 2
+HEAD            Task exception was never retrieved
+HEAD            future: <Task finished name='Task-173' coro=<CMDBase.__init_async__() done, defined at /home/leozaroff/stride/mosaic/core/base.py:81> exception=KeyError('_')>
+HEAD            Traceback (most recent call last):
+HEAD              File "/home/leozaroff/stride/mosaic/core/base.py", line 82, in __init_async__
+HEAD                await self.init(*args, **kwargs)
+HEAD              File "/home/leozaroff/stride/mosaic/core/task.py", line 1144, in init
+HEAD                proxies = self._dependencies['_'].values()
+HEAD                          ~~~~~~~~~~~~~~~~~~^^^^^
+HEAD            KeyError: '_'
+HEAD            Task exception was never retrieved
+HEAD            future: <Task finished name='Task-177' coro=<CMDBase.__init_async__() done, defined at /home/leozaroff/stride/mosaic/core/base.py:81> exception=KeyError('_')>
+HEAD            Traceback (most recent call last):
+HEAD              File "/home/leozaroff/stride/mosaic/core/base.py", line 82, in __init_async__
+HEAD                await self.init(*args, **kwargs)
+HEAD              File "/home/leozaroff/stride/mosaic/core/task.py", line 1144, in init
+HEAD                proxies = self._dependencies['_'].values()
+HEAD                          ~~~~~~~~~~~~~~~~~~^^^^^
+HEAD            KeyError: '_'
+WORKER:0:6      Solve 1
+WORKER:0:6      Done 1
+WORKER:0:3      Solve 2
+WORKER:0:3      Done 2
+WORKER:0:1      Default Devito configuration:
+WORKER:0:1      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:1      	 * develop-mode=False
+WORKER:0:1      	 * mpi=False
+WORKER:0:1      	 * log-level=DEBUG
+WORKER:0:1      	 * language=openmp
+WORKER:0:2      Default Devito configuration:
+WORKER:0:2      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:2      	 * develop-mode=False
+WORKER:0:2      	 * mpi=False
+WORKER:0:2      	 * log-level=DEBUG
+WORKER:0:2      	 * language=openmp
+WORKER:0:3      Default Devito configuration:
+WORKER:0:3      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:3      	 * develop-mode=False
+WORKER:0:3      	 * mpi=False
+WORKER:0:3      	 * log-level=DEBUG
+WORKER:0:3      	 * language=openmp
+WORKER:0:0      Default Devito configuration:
+WORKER:0:0      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:0      	 * develop-mode=False
+WORKER:0:0      	 * mpi=False
+WORKER:0:0      	 * log-level=DEBUG
+WORKER:0:0      	 * language=openmp
+WORKER:0:4      Default Devito configuration:
+WORKER:0:4      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:4      	 * develop-mode=False
+WORKER:0:4      	 * mpi=False
+WORKER:0:4      	 * log-level=DEBUG
+WORKER:0:4      	 * language=openmp
+WORKER:0:5      Default Devito configuration:
+WORKER:0:5      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:5      	 * develop-mode=False
+WORKER:0:5      	 * mpi=False
+WORKER:0:5      	 * log-level=DEBUG
+WORKER:0:5      	 * language=openmp
+WORKER:0:7      Default Devito configuration:
+WORKER:0:7      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:7      	 * develop-mode=False
+WORKER:0:7      	 * mpi=False
+WORKER:0:7      	 * log-level=DEBUG
+WORKER:0:7      	 * language=openmp
+WORKER:0:6      Default Devito configuration:
+WORKER:0:6      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:6      	 * develop-mode=False
+WORKER:0:6      	 * mpi=False
+WORKER:0:6      	 * log-level=DEBUG
+WORKER:0:6      	 * language=openmp
+HEAD            Giving shot 0 to worker:0:0
+HEAD            Giving shot 1 to worker:0:1
+HEAD            Giving shot 2 to worker:0:2
+HEAD            Giving shot 3 to worker:0:3
+HEAD            Giving shot 4 to worker:0:4
+HEAD            Giving shot 5 to worker:0:5
+HEAD            Giving shot 6 to worker:0:6
+HEAD            Giving shot 7 to worker:0:7

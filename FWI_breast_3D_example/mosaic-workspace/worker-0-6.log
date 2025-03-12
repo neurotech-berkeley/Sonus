@@ -1,0 +1,51 @@
+WORKER:0:6      Solve 1
+WORKER:0:6      Done 1
+WORKER:0:6      Solve 1
+WORKER:0:6      Done 1
+WORKER:0:6      Default Devito configuration:
+WORKER:0:6      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:6      	 * develop-mode=False
+WORKER:0:6      	 * mpi=False
+WORKER:0:6      	 * log-level=DEBUG
+WORKER:0:6      	 * language=openmp
+WORKER:0:6      (ShotID 6) Preparing to run state for shot
+WORKER:0:6      (ShotID 6) Selected boundary type sponge_boundary_2
+WORKER:0:6      (ShotID 6) Estimated bandwidth for the propagated wavelet 0.208-0.592 MHz
+WORKER:0:6      (ShotID 6) Spatial grid spacing (0.500 mm | 1.159 PPW) is higher than dispersion limit (0.116 mm | 5.000 PPW)
+WORKER:0:6      (ShotID 6) Time grid spacing (0.080 μs | 44%) is above OT2 limit (0.066 μs) and below OT4 limit (0.118 μs)
+WORKER:0:6      (ShotID 6) Selected undersampling level 5
+WORKER:0:6      (ShotID 6) Selected time stepping scheme OT4
+WORKER:0:6      Operator `acoustic_iso_state` instance configuration:
+WORKER:0:6      	 * name=acoustic_iso_state
+WORKER:0:6      	 * subs={h_x: np.float32(0.0005), h_y: np.float32(0.0005), h_z: np.float32(0.0005), dt: 8e-08}
+WORKER:0:6      	 * opt=advanced
+WORKER:0:6      	 * devicecreate=(p(t, x, y, z),)
+WORKER:0:6      Operator `acoustic_iso_state` generated in 6.84 s
+WORKER:0:6        * lowering.Clusters: 4.31 s (63.1 %)
+WORKER:0:6           * specializing.Clusters: 2.90 s (42.5 %)
+WORKER:0:6              * fuse: 1.74 s (25.5 %)
+WORKER:0:6        * lowering.IET: 1.43 s (21.0 %)
+WORKER:0:6      Flops reduction after symbolic optimization: [717 --> 419]
+WORKER:0:6      Operator `acoustic_iso_state` fetched `/tmp/devito-jitcache-uid1005/bd11f98030f51500d25783541e57bdb27fd42ed3.c` in 0.28 s from jit-cache
+WORKER:0:6      (ShotID 6) Running state equation for shot
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=8,nthreads=1> took 43.241587 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=16,nthreads=1> took 42.459744 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=24,nthreads=1> took 43.147085 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=32,y0_blk0_size=32,nthreads=1> took 44.114958 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=64,y0_blk0_size=64,nthreads=1> took 44.653977 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=96,y0_blk0_size=96,nthreads=1> took 44.317352 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=128,y0_blk0_size=128,nthreads=1> took 44.604625 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=256,y0_blk0_size=256,nthreads=1> took 45.179697 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=512,y0_blk0_size=512,nthreads=1> took 47.365746 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=580,y0_blk0_size=580,nthreads=1> took 48.533619 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=16,nthreads=1> took 42.015688 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=24,nthreads=1> took 43.820335 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=32,nthreads=1> took 45.580723 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=64,nthreads=1> took 45.998564 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=96,nthreads=1> took 46.317108 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=128,nthreads=1> took 46.665645 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=256,nthreads=1> took 47.063118 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=512,nthreads=1> took 48.089325 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=580,nthreads=1> took 48.195329 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=8,nthreads=1> took 40.487808 (s) in 5 timesteps
+WORKER:0:6      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=24,nthreads=1> took 42.710679 (s) in 5 timesteps

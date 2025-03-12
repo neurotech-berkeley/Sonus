@@ -1,0 +1,47 @@
+WORKER:0:0      Default Devito configuration:
+WORKER:0:0      	 * autotuning=['aggressive', 'runtime']
+WORKER:0:0      	 * develop-mode=False
+WORKER:0:0      	 * mpi=False
+WORKER:0:0      	 * log-level=DEBUG
+WORKER:0:0      	 * language=openmp
+WORKER:0:0      (ShotID 0) Preparing to run state for shot
+WORKER:0:0      (ShotID 0) Selected boundary type sponge_boundary_2
+WORKER:0:0      (ShotID 0) Estimated bandwidth for the propagated wavelet 0.208-0.592 MHz
+WORKER:0:0      (ShotID 0) Spatial grid spacing (0.500 mm | 1.159 PPW) is higher than dispersion limit (0.116 mm | 5.000 PPW)
+WORKER:0:0      (ShotID 0) Time grid spacing (0.080 μs | 44%) is above OT2 limit (0.066 μs) and below OT4 limit (0.118 μs)
+WORKER:0:0      (ShotID 0) Selected undersampling level 5
+WORKER:0:0      (ShotID 0) Selected time stepping scheme OT4
+WORKER:0:0      Operator `acoustic_iso_state` instance configuration:
+WORKER:0:0      	 * name=acoustic_iso_state
+WORKER:0:0      	 * subs={h_x: np.float32(0.0005), h_y: np.float32(0.0005), h_z: np.float32(0.0005), dt: 8e-08}
+WORKER:0:0      	 * opt=advanced
+WORKER:0:0      	 * devicecreate=(p(t, x, y, z),)
+WORKER:0:0      Operator `acoustic_iso_state` generated in 6.84 s
+WORKER:0:0        * lowering.Clusters: 4.30 s (63.0 %)
+WORKER:0:0           * specializing.Clusters: 2.86 s (41.9 %)
+WORKER:0:0              * fuse: 1.81 s (26.5 %)
+WORKER:0:0        * lowering.IET: 1.44 s (21.1 %)
+WORKER:0:0      Flops reduction after symbolic optimization: [717 --> 419]
+WORKER:0:0      Operator `acoustic_iso_state` fetched `/tmp/devito-jitcache-uid1005/bd11f98030f51500d25783541e57bdb27fd42ed3.c` in 0.26 s from jit-cache
+WORKER:0:0      (ShotID 0) Running state equation for shot
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=8,nthreads=1> took 45.598474 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=16,nthreads=1> took 43.040299 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=24,y0_blk0_size=24,nthreads=1> took 43.303619 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=32,y0_blk0_size=32,nthreads=1> took 45.060626 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=64,y0_blk0_size=64,nthreads=1> took 44.946948 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=96,y0_blk0_size=96,nthreads=1> took 44.733971 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=128,y0_blk0_size=128,nthreads=1> took 44.706082 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=256,y0_blk0_size=256,nthreads=1> took 45.222271 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=512,y0_blk0_size=512,nthreads=1> took 47.250019 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=580,y0_blk0_size=580,nthreads=1> took 48.249401 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=16,nthreads=1> took 42.099967 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=24,nthreads=1> took 43.835331 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=32,nthreads=1> took 45.816257 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=64,nthreads=1> took 46.035945 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=96,nthreads=1> took 46.307053 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=128,nthreads=1> took 46.630312 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=256,nthreads=1> took 47.121122 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=512,nthreads=1> took 47.813938 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=8,y0_blk0_size=580,nthreads=1> took 48.124411 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=8,nthreads=1> took 40.641185 (s) in 5 timesteps
+WORKER:0:0      AutoTuner: run <x0_blk0_size=16,y0_blk0_size=24,nthreads=1> took 42.824105 (s) in 5 timesteps

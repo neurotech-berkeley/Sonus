@@ -1,2 +1,2 @@
-MONITOR         Listening at <CommsManager object at 140406160607952, uid=monitor, address=sonus-2.us-central1-f.c.project-sonus.internal, port=3012, state=connected>
-MONITOR         Listening at <NODE:0 | WORKER:0-4>
+MONITOR         Listening at <CommsManager object at 139727940282064, uid=monitor, address=sonus-2.us-central1-f.c.project-sonus.internal, port=3001, state=connected>
+MONITOR         Listening at <NODE:0 | WORKER:0-8>
