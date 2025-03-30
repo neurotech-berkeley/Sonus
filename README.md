@@ -11,5 +11,5 @@ The project currently includes:
 - **Model Setup**: Building and testing FWI models on breast tissue data.
 - **FWI Implementation**: Running FWI algorithms to reconstruct detailed internal images.
 
-In the next phase, we will adapt this framework for the MIDA head model, advancing toward our goal of applying FWI to brain imaging.
+In the next phase, we will adapt this framework for accelerated GPU usage for the MIDA head model.
 
